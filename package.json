@@ -4,6 +4,9 @@
     "description": "",
     "homepage": "https://Yaroslav-Radionenko.github.io/wt-js-02-color-switcher-timer",
     "scripts": {
+        "build": "parcel build src/*.html --public-url /wt-js-02-color-switcher-timer/"
+    },
+    "scripts": {
         "deploy": "gh-pages -d dist",
         "predeploy": "npm run build",
         "start": "parcel src/*.html",
